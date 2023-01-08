@@ -84,3 +84,17 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; neotree config
+(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+(map! :leader
+      :desc "neotree-toggle"
+      "n t" #'neotree-toggle
+)
+
+(map! :leader
+      :desc "neotree-relo d"
+      "n r" #'neotree-find
+)
+
+;;evil-mode buffer switch

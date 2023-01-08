@@ -61,13 +61,14 @@
 (package! org-pdftools)
 (package! helm-bibtex)
 
+;; neotree
+(package! neotree)
 
 ;; pdf tool
 (package! pdf-tools)
 
 ;; pacman
 (package! pacmacs)
-(package! wc-mode)
 
 
 ;; web browser
