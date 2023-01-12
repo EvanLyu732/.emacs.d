@@ -53,6 +53,10 @@
 (package! ox-hugo)
 (package! ox-pandoc)
 (package! org-roam)
+
+(unpin! org-roam)
+(package! org-roam-ui)
+
 (package! org-bullets)
 (package! org-ref)
 (package! org-brain)
@@ -60,6 +64,7 @@
 (package! org-noter)
 (package! org-pdftools)
 (package! helm-bibtex)
+(package! zig-mode)
 
 ;; neotree
 (package! neotree)
